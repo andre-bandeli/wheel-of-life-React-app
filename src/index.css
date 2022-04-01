@@ -8,6 +8,8 @@ body {
     background: rgb(29, 83, 71);
     background: linear-gradient(90deg, #0f2027d8 0%, #203A43 43%, #2c5364 100%);
 
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
 }
 
 code {

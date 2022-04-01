@@ -17,7 +17,7 @@
         position: absolute;
         margin-top: 3vh;
         margin-bottom: 3vh;
-        box-shadow: rgba(133, 20, 67, 0.616) 0px 13px 27px -5px, rgba(194, 8, 178, 0.425) 0px 10px 16px -8px;
+        box-shadow: rgba(3, 21, 43, 0.616) 0px 13px 27px -5px, rgba(38, 90, 79, 0.678) 0px 10px 16px -8px;
         border-radius: 15px;
         backdrop-filter: blur( 13.5px );
         display: inline;
@@ -143,6 +143,7 @@
 @media (max-width: 600px) {
     .home {
     
+        min-height: 200vh;
         .box {      
         
     

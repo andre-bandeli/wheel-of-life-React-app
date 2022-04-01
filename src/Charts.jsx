@@ -10,14 +10,15 @@ export default function Charts() {
       <div className="container">
       <PolarArea
         data={{
-          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange', 'Orange'],
+          labels: ['Espiritualidade', 'Saúde', 'Desv. intelectual', 'Propósito', 'Finanças', 'Familia',
+           'Relacionamento', 'Social', 'Lazer'],
           datasets: [
             {
               label: '# of votes',
-              data: [7, 10, 5, 2, 8, 9, 10],
+              data: [7, 10, 5.5, 2, 8, 9, 10, 5, 1, 10],
               backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
+                'rgba(199, 29, 29, 0.911)',
+                'rgba(36, 80, 146, 0.925)',
                 'rgba(255, 206, 86, 0.2)',
                 'rgba(75, 192, 192, 0.2)',
                 'rgba(153, 102, 255, 0.2)',
@@ -25,39 +26,41 @@ export default function Charts() {
                 'rgba(255, 159, 4, 0.2)',
               ],
               borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)',
+                'transparent',
+                'transparent',
+                'transparent',
+                'transparent',
+                'transparent',
+                'transparent',
               ],
-              borderWidth: 1,
+              borderWidth: 3,
             },
-            // {
-            //   label: 'Quantity',
-            //   data: [47, 52, 67, 58, 9, 50],
-            //   backgroundColor: 'orange',
-            //   borderColor: 'red',
-            // },
           ],
         }}
-        height={400}
-        width={600}
+        height={700}
+        width={800}
         options={{
-          maintainAspectRatio: false,
+          maintainAspectRatio: true,
+          responsive: true,
           scales: {
-            yAxes: [
-              {
-                ticks: {
-                  beginAtZero: true,
-                },
-              },
-            ],
+            r: {
+              pointLabels: {
+                display: true,
+                centerPointLabels: false,
+                font: {
+                  size: 18
+                }
+              }
+            }
           },
-          legend: {
+          animation: {
+              animateRotate: true,
+          },
+          legend:
+         {
             labels: {
-              fontSize: 25,
+              fontSize: 30,
+              fontColor: 'rgb(255, 99, 132)'
             },
           },
         }}

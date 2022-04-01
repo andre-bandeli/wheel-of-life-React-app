@@ -298,13 +298,13 @@ export default function Home() {
                 </div>
                 <div className="result">
                     <div className="divs">
-                            <button className='btn btn-danger'> Limpar respostas </button>
+                            <button className='btn btn-danger'> Limpar Respostas </button>
                     </div>
                     <div className="divs">
-                            <button className='btn btn-success'> Próxima página</button>
+                            <button className='btn btn-success'> Gerar Gráfico</button>
                     </div>
                     <div className="divs">
-                            <button className='btn btn-success'>Intruções de uso </button>
+                            <button className='btn btn-success'>Intruções de Uso </button>
                     </div>
                 </div>
                 {/* inicio box (caixa de perguntas + forms) */}
