@@ -1,10 +1,15 @@
 
+import Charts from './Charts';
 import Home from './Home';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div>
-        <Home/>
+        <Navbar/>,
+        <Home/>,
+        <Charts/>,
+
     </div>
   );
 }

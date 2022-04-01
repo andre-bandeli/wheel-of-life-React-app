@@ -8,8 +8,7 @@ export default function Home() {
         <div className='home'>
             
             <div className="box">
-                
-                
+                {/* inicio box (caixa de perguntas + forms) */}
                 <div className="card">
                     <div className="left">
                         <div className="form-ask">
@@ -308,12 +307,9 @@ export default function Home() {
                             <button className='btn btn-success'>Intruções de uso </button>
                     </div>
                 </div>
-
-                
-
-                
-
+                {/* inicio box (caixa de perguntas + forms) */}
             </div>
+
         </div>
     )
 }

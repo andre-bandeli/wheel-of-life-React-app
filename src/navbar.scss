@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Red+Hat+Mono:wght@300&display=swap');
+
+
+.navbar {
+
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+
+
+    .logo {
+        display: flex;
+        width: 50%;
+
+        .bi {
+            
+            margin-left: 2vh;
+            margin-top: 2.5vh;
+        }
+        h2 {
+            margin-left: 3vh;
+            font-family: 'Rajdhani', sans-serif;
+        }
+    }
+    
+}
