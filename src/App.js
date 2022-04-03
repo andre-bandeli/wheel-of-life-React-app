@@ -1,7 +1,7 @@
 
-import Charts from './Charts';
-import Home from './Home';
-import Navbar from './Navbar';
+import Charts from './components/Charts';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
