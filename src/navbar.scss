@@ -7,6 +7,7 @@
     width: 100%;
     height: 8vh;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    display: flex;
 
 
     .logo {
@@ -21,6 +22,18 @@
         h2 {
             margin-left: 3vh;
             font-family: 'Rajdhani', sans-serif;
+        }
+    }
+
+    .itens {
+
+        width: 50%;
+        display: flex;
+
+        .row {
+            width: 25%;
+            height: 100%;
+
         }
     }
     

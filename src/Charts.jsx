@@ -1,10 +1,13 @@
 import React from 'react'
 import './charts.scss'
-import { Pie, defaults, PolarArea, Bar } from 'react-chartjs-2'
+import { Pie, defaults, PolarArea, Radar, Bar } from 'react-chartjs-2'
+
 
 
 
 export default function Charts() {
+
+
   return (
     <div className='charts'>
       <div className="container">
